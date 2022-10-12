@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <layer-list>
+            <item android:width="56dp" android:height="56dp">
+                <shape android:shape="oval">
+                    <gradient android:endColor="@color/tv_style_color_seconde" android:gradientRadius="28dp" android:startColor="@color/tv_style_color_main" android:type="radial" />
+                </shape>
+            </item>
+
+            <item android:width="56dp" android:height="56dp" android:left="40dp">
+                <shape android:shape="oval">
+                    <gradient android:endColor="@color/tv_style_color_seconde" android:gradientRadius="28dp" android:startColor="@color/tv_style_color_main" android:type="radial" />
+                </shape>
+            </item>
+
+            <item android:width="40dp" android:height="28dp" android:left="28dp">
+                <shape android:shape="rectangle">
+                    <gradient android:angle="90" android:endColor="#FAF3FF" android:startColor="@color/tv_style_color_main" android:type="linear" />
+                </shape>
+            </item>
+
+            <item android:width="40dp" android:height="28dp" android:left="28dp" android:top="28dp">
+                <shape android:shape="rectangle">
+                    <gradient android:angle="270" android:endColor="@color/tv_style_color_seconde" android:startColor="@color/tv_style_color_main" android:type="linear" />
+                </shape>
+            </item>
+            <item android:width="88dp" android:height="44dp" android:left="4dp" android:top="6dp">
+                <shape android:shape="rectangle">
+                    <corners android:radius="24dp" />
+                    <solid android:color="#8A73F5" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_pressed="false">
+        <layer-list>
+            <item android:width="56dp" android:height="56dp">
+                <shape android:shape="oval">
+                    <gradient android:endColor="@color/tv_style_color_seconde" android:gradientRadius="28dp" android:startColor="@color/tv_style_color_main" android:type="radial" />
+                </shape>
+            </item>
+
+            <item android:width="56dp" android:height="56dp" android:left="40dp">
+                <shape android:shape="oval">
+                    <gradient android:endColor="@color/tv_style_color_seconde" android:gradientRadius="28dp" android:startColor="@color/tv_style_color_main" android:type="radial" />
+                </shape>
+            </item>
+
+            <item android:width="40dp" android:height="28dp" android:left="28dp">
+                <shape android:shape="rectangle">
+                    <gradient android:angle="90" android:endColor="#FAF3FF" android:startColor="@color/tv_style_color_main" android:type="linear" />
+                </shape>
+            </item>
+
+            <item android:width="40dp" android:height="28dp" android:left="28dp" android:top="28dp">
+                <shape android:shape="rectangle">
+                    <gradient android:angle="270" android:endColor="@color/tv_style_color_seconde" android:startColor="@color/tv_style_color_main" android:type="linear" />
+                </shape>
+            </item>
+            <item android:width="88dp" android:height="44dp" android:left="4dp" android:top="6dp">
+                <shape android:shape="rectangle">
+                    <corners android:radius="24dp" />
+                    <solid android:color="#ffffff" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+</selector>
+
